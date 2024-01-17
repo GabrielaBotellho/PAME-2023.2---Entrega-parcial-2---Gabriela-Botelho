@@ -1,0 +1,100 @@
+h1{
+  background-color: rgb(44, 42, 42);
+  color: white;
+
+}
+h2{
+    
+
+
+
+}
+.introducaoSite{
+    background-color: gray;
+    color:white;
+    display: flex;
+    align-items: center
+    flex-direction line;
+    font-style: unset;
+    
+
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45vh;
+    width: 40vw;
+    flex-direction:column;
+    margin: auto;
+
+    #botaoEsqueceuASenha{
+        background-color: transparent;
+        color: blue;
+        width: 20vw;
+        height: 4dvh;
+         
+    }
+
+    #botaoLembreDeMim{
+        background-color: green;
+        color: white;
+        width: 16vw;
+        height: 4dvh;
+
+    }
+
+    #botaoLogar{
+        background-color: green;
+        color: white;
+        width: 30vw;
+        height: 5vh;
+
+
+
+    }
+
+    #botaoLogarComGoogle{
+        background-color: rgb(59, 57, 57);
+        color: white;
+        width: 25vw;
+        height: 3vh;
+
+    }
+
+    #botaoLogarComFacebook{
+        background-color: rgb(59, 57, 57);
+        color: white;
+        width: 25vw;
+        height: 3vh;
+    }
+
+
+
+
+
+
+
+
+
+} 
+
+
+.informacoesSite{
+    color: white;
+    background-color: rgb(44, 42, 42);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: unset;
+    background-image: url(imagens/Fluxo.jpg);
+    background-size: 100% 100%;
+
+    
+}
+
+
+.encerramentoSite{
+    
+}

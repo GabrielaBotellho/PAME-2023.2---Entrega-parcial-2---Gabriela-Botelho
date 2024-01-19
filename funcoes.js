@@ -1,5 +1,4 @@
-// Função para gerar a mensagem ao apertar o botão sign up
-function mensagemBotao(){
-    return alert ('Nome e email enviados corretamente!')
+function botaoCadastro() {
+    return alert("Cadastro realizado com sucesso!")
 }
 

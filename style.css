@@ -1,100 +1,252 @@
+
+
+
+
 h1{
   background-color: rgb(44, 42, 42);
   color: white;
-
+  text-decoration: underline;
+  width: 100%;
+  height: 5%;
+  font-size: 25px;
+  display: flex;
+  margin: 0 0%;
+  
 }
+
+#imagemGit{
+    transform: translateY();
+}
+
 h2{
+    background-color: rgb(44, 42, 42);
+    color: white;
+    width: 100%;
+    height: 5%;
+    font-size: 25px;
+    display: inline-block;
+    margin: 0 -70%;
+    justify-content: flex-end;
     
-
-
+    
+    
 
 }
-.introducaoSite{
-    background-color: gray;
-    color:white;
-    display: flex;
-    align-items: center
-    flex-direction line;
-    font-style: unset;
-    
 
+body{
+    
+    background-image: url(./imagens/Fluxo.jpg);
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    background-size:cover;
+    background-position: 50%;
+    height: 100vh;
+    
+    
+    
+    
+    
+}
+
+.introducaoSite{
+    background-color:transparent;
+    color:white;
+    font-style: unset;
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    font-size:30px;
+    text-align: center;
+    position:absolute;
+    top: +15%;
+    transform: translate(+42%, +60%);
+    font-weight: 400;
+    
 }
 
 .formulario{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 45vh;
-    width: 40vw;
-    flex-direction:column;
+    
+    height: 35vh;
+    width: 30vw;
     margin: auto;
+    display: flex; 
+    align-items: center;
+    flex-direction:column;
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    font-weight: 500;
+    
+
+    
+    #email{
+       height: 3vh; 
+       width: 20vw;
+       border-radius: 8px;
+    }
+
+    #senha{
+        height: 3vh;
+        width: 20vw;
+        border-radius: 8px;
+        transform: translateY(-0%);
+ 
+     }
 
     #botaoEsqueceuASenha{
         background-color: transparent;
         color: blue;
-        width: 20vw;
-        height: 4dvh;
-         
+        width: 30vw;
+        height: 1vh;
+        font-size: 15px;
+        border-style:initial;
+        justify-content: flex-end;
+        transform: translate(+23%,5%);
+        
+    
     }
 
-    #botaoLembreDeMim{
-        background-color: green;
-        color: white;
+    #botaoLembreDeMim  {
+        
+        
+        background-color:rgb(59, 57, 57);
+        color:white;
         width: 16vw;
         height: 4dvh;
+        border-style:initial;
+        justify-content: center;
+        border-radius: 999px;
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
 
+        
+    }
+
+    .botaoLembreDeMim::before{
+        display: inline-block;
+        width:2em;
+        height: 2em;
+        background: #900;
     }
 
     #botaoLogar{
         background-color: green;
         color: white;
-        width: 30vw;
-        height: 5vh;
+        width: 25vw;
+        height: 40vh;
+        border-style:initial;
+        border-radius: 8px;
+
+       
 
 
 
     }
 
     #botaoLogarComGoogle{
-        background-color: rgb(59, 57, 57);
+        background-color: rgb(44, 42, 42);
         color: white;
         width: 25vw;
-        height: 3vh;
+        height: 18vh;
+        border-style:initial;
+        border-radius: 8px;
 
     }
+
+    #imagemGoogle{
+        width: 1vw;
+        height: 1vh;
+    }
+
 
     #botaoLogarComFacebook{
-        background-color: rgb(59, 57, 57);
+        background-color: rgb(44, 42, 42);
         color: white;
         width: 25vw;
-        height: 3vh;
+        height: 8vh;
+        border-style:initial;
+        border-radius: 8px;
     }
 
-
-
-
-
-
-
-
-
+    #imagemFacebook{
+        width: 1vw;
+        height: 1vh;
+    }
 } 
 
 
 .informacoesSite{
     color: white;
-    background-color: rgb(44, 42, 42);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: rgb(58, 57, 57);
     font-style: unset;
-    background-image: url(imagens/Fluxo.jpg);
-    background-size: 100% 100%;
+    width: 30vw;
+    height: 55vh;
+    text-align: center;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    position:absolute;
+    top: +55%;
+    border-radius: 8px;
 
-    
 }
 
 
 .encerramentoSite{
     
+    height: 10vh;
+    display: flex;
+    align-items: flex-end;
+    background-color: transparent;
+    justify-content: center;
+    position:absolute;
+    top: +80%;
+    transform: translate(+48%, +80%);
+    
+    #Terms{
+        width: 5vw;
+        font-size: 15px;
+        background-color: transparent;
+        border-style: initial;
+        color: white;
+        align-items: flex-end;
+    }
+    
+    #Privacy{
+        width: 8vw;
+        font-size: 15px;
+        background-color: transparent;
+        border-style: initial;
+        color: white;
+    }
+
+    #Docs{
+        width: 5vw;
+        font-size: 15px;
+        background-color: transparent;
+        border-style: initial;
+        color: white;
+    }
+
+    #Contact{
+        width: 13vw;
+        font-size: 15px;
+        background-color: transparent;
+        border-style: initial;
+        color: white;
+    }
+
+    #DoNot{
+        width: 20vw;
+        font-size: 15px;
+        background-color: transparent;
+        border-style: initial;
+        color: white;
+    }
 }

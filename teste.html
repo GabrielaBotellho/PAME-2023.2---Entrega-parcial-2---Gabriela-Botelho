@@ -5,12 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site de Cadastro</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="funcoes.js">
+    
+    <script src="./funcoes.js"></script> 
 </head>
 
 <body>
-<h1> GitFluxo</h1>  <h2>Let's build from here</h2>
 
+    
+    <h1 style="float: left;">GitFluxo <img id="imagemGit" src="./imagens/logoGit.jpg"></h1> 
+
+    <h2 style="float: right;">Let's build from here</h2>
 
     <div class ="introducaoSite"> <!-- Cabeçalho do site-->
 
@@ -32,10 +36,13 @@
     <!-- definindo o formulário com uma classe para simplicar as alterações em CSS-->
 
         <!--email-->
-        <label for = 'email'>Username or email adress:</label>
+        <label for = 'email'>Username or email adress:
         <input type = "email" id = "email">
+        </label>
         <!-- type = 'email' é usado para só permitir respostas no formato de email -->
-
+        
+        <p> </p>
+       
         <!-- Botão para esquecer a senha  --> 
         <button id="botaoEsqueceuASenha"> Forgot Password? </button>
        
@@ -43,35 +50,46 @@
         <label for = 'senha'>Password:</label>
         <input type = "password" id = "senha">
         <!-- type = 'password' é usado para que os dígitos fiquem ** -->
+        
+        <p> </p>
+        
         <!-- Botões -->  
        
-        
-        
         <!-- Botão habilitando o "Lembre de mim" -->
-        <button id="botaoLembreDeMim"> Remember me </button>
 
+        
+        <button id="botaoLembreDeMim"> Remember me </button>
+        <input type="checkbox">
+        <p> </p>
         <!-- Botão para logar  -->
-        <button onClick='mensagemBotao' id="botaoLogar"> Sign Up </button>
+        <button onClick= "botaoCadastro" id="botaoLogar"> Sign Up </button>
         
         <!-- Escrevendo o 'ou' na tela -->
         <p>or</p>
 
         <!-- Botão para logar com Google  -->
-        <button id="botaoLogarComGoogle"> Continue with Google </button>
-
+        <button id="botaoLogarComGoogle">
+            <img id = "imagemGoogle" src="./imagens/logoGoogle.jpg">
+            Continue with Google </button>
+        
+        <p> </p>
+        
+    
         <!-- Botão para logar com Facebook  -->
-        <button id="botaoLogarComFacebook"> Continue with Facebook </button>
+        <button id="botaoLogarComFacebook">
+            <img id="imagemFacebook" src="./imagens/logoFacebbok.jpg" >
+            with Facebook </button>
 
     </form>
     </div>
 
     <div class="encerramentoSite"> <!-- Rodapé do site-->
         <!-- Opções disponíveis no final do site -->
-        <button> Terms </button>
-        <button> Privacy </button>
-        <button> Docs </button>
-        <button> Contact GitFluxo Support </button>
-        <button> Do not share my personal information </button>
+        <button id="Terms"> Terms </button>
+        <button id="Privacy"> Privacy </button>
+        <button id="Docs"> Docs </button>
+        <button id="Contact"> Contact GitFluxo Support </button>
+        <button id="DoNot"> Do not share my personal information </button>
 
 
     </div>
